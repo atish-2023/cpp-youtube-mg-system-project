@@ -1,57 +1,45 @@
-# cpp-youtube-mg-system-project
-A C++ based YouTube Management System that allows user registration, video management, subscriptions, and exploring content across various categories.
+**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
+When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
 
-YouTube Management System
+*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
 
+---
 
-Features:
-User Registration: Users can create an account by entering their username, password, email, and phone number. The details are saved in a file for future logins.
-User Login: Registered users can log in by entering their username and password.
-Password Reset: If users forget their passwords, they can reset them by verifying their identity through OTP sent to their registered email and phone number.
-Explore Videos: Users can explore videos across categories like Trending, Music, Films, Gaming, Sports, and more.
-Channel Subscription: Users can subscribe to, view, or unsubscribe from available channels.
-Technologies Used:
-File Handling: For storing user data, subscriptions, and video categories.
-C++ Standard Libraries: Including iostream, fstream, and string manipulation functions.
-How to Use:
-Registering a User:
+## Edit a file
 
-Select "REGISTER" from the main menu.
-Enter your username, password, email, and phone number.
-Your details will be saved in users.txt.
-Logging In:
+You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
-Select "LOGIN" from the main menu.
-Enter your username and password.
-If correct, you'll gain access to other features.
-Password Recovery:
+1. Click **Source** on the left side.
+2. Click the README.md link from the list of files.
+3. Click the **Edit** button.
+4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
+5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
+6. Go back to the **Source** page.
 
-Select "Forgot Password."
-Enter your username, email, and phone number.
-Verify the OTP sent to reset your password.
-Exploring Videos:
+---
 
-Select "Explore Videos" from the menu.
-Choose a category (e.g., Trending, Music, Films).
-View the list of videos in that category.
-Managing Subscriptions:
+## Create a file
 
-Select "Subscriptions" from the menu.
-Subscribe to, view, or unsubscribe from channels.
-Requirements:
-C++ compiler (e.g., GCC, MinGW) to compile and run the project.
-The application works on a text-based terminal and requires access to the file system for reading and writing user data.
+Next, you’ll add a new file to this repository.
 
+1. Click the **New file** button at the top of the **Source** page.
+2. Give the file a filename of **contributors.txt**.
+3. Enter your name in the empty file space.
+4. Click **Commit** and then **Commit** again in the dialog.
+5. Go back to the **Source** page.
 
+Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
+---
 
-#output 
+## Clone a repository
 
-![Screenshot (809)](https://github.com/user-attachments/assets/693ecf11-a377-47c5-833e-e391f0a75389)
+Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
 
+1. You’ll see the clone button under the **Source** heading. Click that button.
+2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
+3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
+4. Open the directory you just created to see your repository’s files.
 
-![Screenshot 2025-01-27 190537](https://github.com/user-attachments/assets/1edc0f12-d4e8-408f-bb0a-2e639a3e9c5f)
-
-
-![Screenshot (810)](https://github.com/user-attachments/assets/5755d4f4-72e1-4a33-b677-3b68638e00f2)
+Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
