@@ -1,45 +1,54 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+📺 YouTube Management System in C++
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+A menu-driven console application that allows users to interact with a YouTube-like platform built using C++, leveraging Object-Oriented Programming (OOP) and File Handling for data management.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+🌟 Key Functionalities
 
----
+✅ User Authentication 🔐
 
-## Edit a file
+Register New Users – Securely create an account with user details.
+Login to Existing Accounts – Verify credentials and access personalized content.
+Forgot Password Recovery – Retrieve lost passwords via security questions.
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+✅ Video Exploration 🎥
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+Users can watch different types of videos based on their interests.
 
----
+Watch Long Videos (📽️ Trending, 🎵 Music, 🎬 Films, 🎮 Gaming, ⚽ Sports, 🎙️ Podcasts, 📚 Courses)
+Watch Shorts (🔥 Trending short videos for quick entertainment)
 
-## Create a file
+✅ Subscription Management 📢
 
-Next, you’ll add a new file to this repository.
+Subscribe to Channels – Follow favorite content creators.
+View Subscribed Channels – See all subscribed channels in one place.
+Unsubscribe from Channels – Remove unwanted subscriptions.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+✅ User-Friendly Navigation 🎛️
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+Menu-Driven Approach – Clear and structured menu for smooth user experience.
+Loops for Continuous Interaction – Users can perform multiple actions without restarting the program.
+Structured Switch Statements – Efficiently handles feature selection, similar to real-world YouTube functionality.
 
----
+🛠️ Backend Implementation (C++ Features Used)
+Object-Oriented Programming (OOP) – Classes & Objects for users, videos, channels.
+File Handling (📂 Text-Based Storage) – Stores user data, subscriptions, and video records.
+Exception Handling – Prevents errors and ensures smooth execution.
+Data Searching & Sorting – Efficiently retrieves and organizes content.
 
-## Clone a repository
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+output 
+____________________________________________________________________________________________________________________________________________________________
+
+![Screenshot (819)](https://github.com/user-attachments/assets/3d840fb1-bcf8-4914-b4ac-bce2844da2bb)
+
+
+![Screenshot 2024-12-19 221244](https://github.com/user-attachments/assets/31d7db98-935f-475a-b3e9-85257c404e07)
+
+
+
+![Screenshot 2024-12-19 221431](https://github.com/user-attachments/assets/146431a8-286d-476b-93ca-8a860c4f2b16)
+
+
+
